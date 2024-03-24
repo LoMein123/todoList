@@ -1,0 +1,52 @@
+/* The todo list */
+ul li {
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+    /* Unchecked checkbox image */
+    ul li::before {
+        content: '';
+        position: absolute;
+        height: 28px;
+        width: 28px;
+        background-image: url(images/unchecked.png);
+        background-size: cover;
+        background-position: center;
+        left: 0.5em;
+    }
+
+    /* List item checked - Greyyed and strike throughed*/
+    ul li.checked {
+        color: #555;
+        text-decoration: line-through;
+    }
+        ul li.checked::before {
+            background-image: url(images/checked.png);
+        }
+
+    /* Priority div */
+    ul li .priorityclass {
+        display: inline-block;
+        position: absolute;
+        right: 3em;
+    }
+
+    /* Date div */
+    ul li .dateclass {
+        display: inline-block;
+        position: absolute;
+        right: 8em;
+    }
+
+    /* Delete task "button" */
+    ul li .delclass {
+        height: 28px;
+        width: 28px;
+        display: inline-block;
+        position: absolute;
+        right: 0.5em;
+    }
+        ul li .delclass:hover {
+            background: url("images/delete-hover-28.png") no-repeat;
+        }
