@@ -1,0 +1,6 @@
+CREATE TABLE `todolist` (
+  `username` varchar(30) NOT NULL,
+  `password` varchar(30) NOT NULL,
+  `data` varchar(9999) DEFAULT NULL,
+  UNIQUE KEY `username` (`username`)
+)
