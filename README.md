@@ -1,5 +1,5 @@
 # A simple account based to-do list application
- A dynamic and interactive To-Do List web application using HTML, CSS, JavaScript, and PHP.  Implements and presents Software Engineering principles and practices such as requirements engineering, modeling, development, and testing.  The website can be accessed at: http://mytodolist.free.nf
+ A dynamic and interactive To-Do List web application using HTML, CSS, JavaScript, and PHP.  Implements and presents Software Engineering principles and practices such as requirements engineering, modeling, development, and testing.  
 
 ## Features
  - Login/logout
